@@ -158,11 +158,11 @@
                 <button ${lastResort == true?  "disabled style='display: none;'" : ""} ${cLoopHole == true? "disabled style='opacity: 50%;'" : ""} onclick="callSaul('loophole', 150)">
                 Exploit casino policy loopholes: 150$ <div class="desc">${ExploitDesc}</div></button>
 
-                <button  ${lastResort == true?  "disabled style='display: none;'" : ""} ${lostOnce == false? "disabled style='opacity: 50%;'" : ""} onclick="callSaul('sue', 400)">
-                Sue the casino: 400$ <div class="desc">${SueDesc}</div></button>
+                <button  ${lastResort == true?  "disabled style='display: none;'" : ""} ${lostOnce == false? "disabled style='opacity: 50%;'" : ""} onclick="callSaul('sue', 300)">
+                Sue the casino: 300$ <div class="desc">${SueDesc}</div></button>
 
-                <button  ${lastResort == true?  "disabled style='display: none;'" : ""} ${borrowed == false || SmoothedOver == true? "disabled style='opacity: 50%;'" : ""} onclick="callSaul('extend', 250)">
-                Smooth talking charmer: 250$ <div class="desc">${CharmDesc}</div></button>
+                <button  ${lastResort == true?  "disabled style='display: none;'" : ""} ${borrowed == false || SmoothedOver == true? "disabled style='opacity: 50%;'" : ""} onclick="callSaul('extend', 200)">
+                Smooth talking charmer: 200$ <div class="desc">${CharmDesc}</div></button>
 
                 <button  ${SaulHasEquity == false? "style='display: none;'" : ""} ${lastResort == true?  "disabled style='display: none;'" : ""} onclick="callSaul('pay-back', 1000)">
                 Pay Saul back: 1000$ <div class="desc">${PayBackDesc}</div></button>
